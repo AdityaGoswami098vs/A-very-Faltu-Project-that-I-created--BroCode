@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dayName {
+    border: 1.2px solid; /* invisible but keeps space */
+    border-radius: 4px;
+    outline: none;
+    padding-block: 4px;
+    
+}
+#dayName:focus {
+    outline: none;
+    border: 1.2px solid black;
+    /* border-radius: 2px; */
+}
+#submit{
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    padding-block: 3px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-out;
+
+    padding: 5px;
+    padding-inline: 10px;
+}
+#submit:hover{
+    background-color: rgb(228, 61, 0);
+}
